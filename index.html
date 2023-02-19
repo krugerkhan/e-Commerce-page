@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E commerce page</title>
+    <style>
+      .Top {
+        display: flex;
+      }
+      a {
+        list-style: none;
+        text-decoration: none;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 50px;
+        color: antiquewhite;
+      }
+      .top2 {
+        display: flex;
+        position: absolute;
+        list-style: none;
+        color: antiquewhite;
+      }
+      .logo {
+        font-size: 25px;
+        margin-top: 44px;
+        margin-left: 40px;
+      }
+      .imgone {
+        display: flex;
+      }
+      h1 {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 890px;
+      }
+      .with {
+        margin-top: 150px;
+        color: darkgray;
+        width: 400px;
+        margin-left: 50px;
+      }
+      .shop {
+        position: absolute;
+        color: darkgray;
+        margin-top: 250px;
+        margin-left: 900px;
+        word-spacing: 10px;
+        letter-spacing: 10px;
+      }
+      .arrow {
+        position: absolute;
+        margin-left: 200px;
+        top: 17px;
+      }
+      .furniture {
+        position: absolute;
+        top: 530px;
+        margin-left: 500px;
+        font-size: 30px;
+      }
+      .our {
+        position: absolute;
+        color: darkgray;
+        margin-left: 500px;
+        top: 600px;
+        width: 400px;
+      }
+      body {
+        margin-left: 130px;
+      }
+      .left {
+        background: black;
+        font-size: 40px;
+        width: 70px;
+        position: absolute;
+        top: 485px;
+        right: 533px;
+        padding: 5px;
+      }
+      .right {
+        background: darkgrey;
+        font-size: 40px;
+        position: absolute;
+        top: 485px;
+        right: 455px;
+        width: 70px;
+        padding: 5px;
+      }
+      .light {
+        position: absolute;
+        right: 15px;
+      }
+      @media (max-width: 640px) {
+        .Top {
+          display: flex;
+          flex-direction: column;
+        }
+        .footer {
+          display: flex;
+          flex-direction: column;
+        }
+        .top2 {
+          flex-wrap: wrap;
+        }
+        .imgone {
+          display: flex;
+          flex-direction: column;
+        }
+        .h1 {
+          display: flex;
+          flex-direction: column;
+        }
+        .with {
+          display: flex;
+          flex-direction: column;
+        }
+        .furniture {
+          display: flex;
+          flex-direction: column;
+        }
+        .down {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="Top">
+      <div class="top2">
+        <li class="logo">room</li>
+        <a href="#"><li>about</li></a>
+        <a href="#"><li>about</li></a>
+        <a href="#"><li>about</li></a>
+        <a href="#"><li>about</li></a>
+        <a href="#"><li>about</li></a>
+      </div>
+      <div class="imgone">
+        <img src="desktop-image-hero-1.jpg" />
+        <h1>We are available all across the globe</h1>
+        <p class="with">
+          With stores all over the world, it's easy for you to find furniture
+          for your home or place of business. Locally, we are in most major
+          cities throughout the country. Find the branch nearest you using our
+          store locator. Any questions? Don't hesitate to contact us today.
+        </p>
+      </div>
+      <div class="shop">
+        <p>SHOP NOW</p>
+        <span class="arrow"><img src="icon-arrow.svg" /></span>
+      </div>
+    </section>
+    <section class="down">
+      <img src="image-about-dark.jpg" />
+      <p class="furniture">About our Furniture</p>
+      <p class="our">
+        About our furniture Our multifunctional collection blends design and
+        function to suit your individual taste. Make each room unique, or pick a
+        cohesive theme that best express your interests and what inspires you.
+        Find the furniture pieces you need, from traditional to contemporary
+        styles or anything in between. Product specialists are available to help
+        you create your dream space.
+      </p>
+      <span class="left"> <img src="icon-angle-left.svg" /></span>
+      <span class="right"><img src="icon-angle-right.svg" /></span>
+      <span class="light"> <img src="image-about-light.jpg" /></span>
+    </section>
+  </body>
+</html>
